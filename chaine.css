@@ -9,7 +9,10 @@ body{
 html {
 scroll-behavior: smooth;
 }
-
+#nnav{
+  z-index: 9;
+  padding: 0.01px 0;
+}
 
 ul {
 margin: 0;
@@ -98,6 +101,7 @@ font-size: 15px;
 color: #fff;
 margin-left: 41%;
 font-size: 15px;
+padding: 0 0 ;  
 }
 .header__nav__menu__link h4 {
 color: #fff;
@@ -107,6 +111,7 @@ font-size: 15px;
 
 .sous_titre{
 display: block;
+z-index: 9;
 }
 
 .img_sous_texte{
@@ -127,7 +132,7 @@ top: 27.2%;
 margin-right: initial;
 }
 
-.header__nav__menu__link a {
+.titre-nav {
 color: #fff;
 font-family: 'Arial';
 font-weight: 850;
@@ -222,7 +227,7 @@ display: none;
     margin-bottom: 20px;
 }
 
-.header__nav__menu__link a {
+.titre-nav {
     font-size: 40px;
     left: 8%;
 }
@@ -257,6 +262,7 @@ display: none;
 }
 
 }
+
   /* **************** IMAGE PRINCIPALE ************* */
   #imagePrincipale {
     padding-top: 60px;
@@ -410,13 +416,7 @@ display: none;
 p{
   color: #f1f2f6;
 }
-h4{
-font-style: italic;
-text-transform: uppercase;
-text-align: center;
-font-size: 22em;
-font-family: Arial, Helvetica, sans-serif;
-}
+
 #presentation {
 background-color: #f1f2f6;
 padding: 20px 0px 150px 0;
