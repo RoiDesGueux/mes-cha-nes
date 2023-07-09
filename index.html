@@ -1,189 +1,340 @@
 <!DOCTYPE html>
-<html lang="fr">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" href= "img/background/roi.png" type="image/x-icon">
+<html lang="en">
 
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-    <title>Roi_Des_Gueux</title>
+  <title>Mes Chaînes</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
 
-    <link rel="stylesheet" href="chaine.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- Favicons -->        <link rel="icon" href= "assets/img/favicon.png" type="image/x-icon">
 
-    
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/favicon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+ 
+</head>
+
 <body>
-  <header class="header">
-        <nav class="nav">
-          <ul class="ul1">
-            <a href="#"><img src="img/nav/logo.png" alt="Logo" id="logo" width="75px"></a>
-            <div class="nav-droite">
-              <li><a href="https://roidesgueux.github.io/music/">Song</a></li>
-              <li><a href="https://roidesgueux.github.io/mes-chaines/">Mes chaînes</a></li>
-              <li><a href="https://roidesgueux.github.io/liens/">Jeux&Logiciels</a></li>
-              <li><a href="https://roidesgueux.github.io/anime/">Animé</a></li>
-              <li><a href="https://roidesgueux.github.io/contactez-moi/">Nous contacter</a></li>
-            </div>
-          </nav >
-          <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
-          <header class="header">
-            
-              <nav class="header__nav">
-                  <div class="header__nav__close" onclick="closeMenuMobile()">
-                      <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                          stroke="currentColor">
-                          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
-                      </svg>
-                  </div>
-                  <ul class="header__nav__menu">
-                      <li class="header__nav__menu__link">
-                          <a class="titre-nav" href="https://roidesgueux.github.io/mes-chaines/" >Mes chaînes</a>
-                          <div class="sous_titre">
-                          <img src="img/nav/tiktok.png" alt="tiktok" class="img_sous_texte" width="45px">
-                          <a href="https://www.tiktok.com/@roi_des_geueux" id="nnav"><h4 href="https://www.tiktok.com/@roi_des_geueux" id="nnav"> TikTok </h4></a>
-                          </div>
-                          <div class="sous_titre">
-                          <img src="img/nav/twitch.png" alt="tiktok" class="img_sous_texte" width="45px">
-                          <a href="https://www.twitch.tv/roi_des_gueux_max" id="nnav"><h4 href="https://www.twitch.tv/roi_des_gueux_max" id="nnav"> Twitch </h4></a>
-                          </div>
-                          <div class="sous_titre">
-                          <img src="img/nav/youtube.png" alt="tiktok" class="img_sous_texte" width="45px">
-                          <a href="https://www.youtube.com/@Roi_Des_Gueux " id="nnav"><h4 href="https://www.youtube.com/@Roi_Des_Gueux " id="nnav"> Youtube </h4></a>
-                          </div>
-                      </li>
-                      <li class="header__nav__menu__link">
-                          <a class="titre-nav" href="https://roidesgueux.github.io/liens/ ">Jeux&Logiciels</a>
-                          <div class="sous_titre">
-                            <img src="img/nav/solo.png" alt="tiktok" class="img_sous_texte" width="43px">
-                            <a href="https://roidesgueux.github.io/solo/" id="nnav"> <h3 href="https://roidesgueux.github.io/solo/" id="nnav"> Jeux solo </h3></a>
-                            </div>
-                            <div class="sous_titre">
-                            <img src="img/nav/deux.png" alt="tiktok" class="img_sous_texte" width="40px">
-                            <a href="https://roidesgueux.github.io/multi/" id="nnav"><h3 href="https://roidesgueux.github.io/multi/" id="nnav"> Jeux multi </h3></a>
-                            </div>
-                            <div class="sous_titre">
-                               <img src="img/nav/logiciel.png" alt="tiktok" class="img_sous_texte" width="43px">
-                               <a href="https://roidesgueux.github.io/logiciel/" id="nnav"> <h3 href="https://roidesgueux.github.io/logiciel/"> Logiciels </h3></a>
-                                </div>
-                      </li>
-                      <li class="header__nav__menu__link">
-                          <a class="titre-nav" href="https://roidesgueux.github.io/anime/ ">Animé</a>
-                          <div class="sous_titre">
-                            <img src="img/nav/vostfr.png" alt="tiktok" class="img_sous_texte" width="40px">
-                            <a href="https://roidesgueux.github.io/vostfr/" id="nnav"><h1 href="https://roidesgueux.github.io/vostfr/" id="nnav"> Vostfr</h1></a>
-                            </div>
-                            <div class="sous_titre">
-                            <img src="img/nav/fr.png" alt="tiktok" class="img_sous_texte" width="40px">
-                            <a href="https://roidesgueux.github.io/VF/" id="nnav"><h1 href="https://roidesgueux.github.io/VF/" id="nnav"> VF</h1></a>
-                            </div>
-                            <div class="sous_titre">
-                                <img src="img/nav/plannig.png" alt="tiktok" class="img_sous_texte" width="40px">
-                                <a href="https://roidesgueux.github.io/planification/" id="nnav"><h1 href="https://roidesgueux.github.io/planification/"> Planning</h1></a>
-                                </div>
-                      </li>
-      
-                  </ul>
-              </nav>
-              <div class="header__burger" onclick="openMenuMobile()">
-                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24"
-                      stroke="currentColor">
-                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-                  </svg>
-              </div>
-          </header>
-          <script>
-            function openMenuMobile() {
-                document.querySelector('.header__nav').classList.add('open');
-                document.querySelector('.overlay-menu-mobile').classList.add('open');
-            }
-    
-            function closeMenuMobile() {
-                document.querySelector('.header__nav').classList.remove('open');
-                document.querySelector('.overlay-menu-mobile').classList.remove('open');
-            }
-        </script>
 
-<div id="imagePrincipale">
-    
-</div>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex align-items-center ">
+    <div class="container-fluid container-xxl d-flex align-items-center">
 
-    </header>
-   
-      <div id="prestations">
-        <div class="imagesPrestations">
-          <h4>YouTube</h4>
-          <a href="https://www.youtube.com/@Roi_Des_Gueux"><img src="media1/ytb.png" alt="carte"></a>
-        </div>
-        <div class="imagesPrestations">
-          <h4>Discord</h4>
-          <a href="https://discord.gg/GnRaH7KXTU"><img src="media1/discord.png" alt="repas"></a>
-        </div>
-        <div class="imagesPrestations">
-          <h4>TikTok</h4>
-          <a href="https://www.tiktok.com/@roi_des_geueux"><img src="media1/tiktok.png" alt="chambre"></a>
-        </div>
-        <div class="imagesPrestations">
-          <h4>Twitch</h4>
-          <a href="https://www.twitch.tv/roi_des_gueux_max"><img src="media1/t.png" alt="repas"></a>
-        </div>
+      <div id="logo" class="me-auto">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="index.html">The<span>Event</span></a></h1>-->
+        <a href="index.html" class="scrollto"><img src="assets/img/logo.png" alt="" title=""></a>
       </div>
-    
-        
-     
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a class="nav-link scrollto active" href="https://roidesgueux.github.io/accueil/">Home</a></li>
+          <li><a class="nav-link scrollto" href="https://roidesgueux.github.io/music/">Song</a></li>
+          <li><a class="nav-link scrollto" href="https://roidesgueux.github.io/anime/">Animé</a></li>
+          <li><a class="nav-link scrollto" href="https://roidesgueux.github.io/liens/">Liens Jeux</a></li>
+  
+          <li><a class="nav-link scrollto" href="https://roidesgueux.github.io/contactez-moi/">Contact</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+  
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div class="hero-container" data-aos="zoom-in" data-aos-delay="100">
+      <h1 class="mb-4 pb-0">Tu peux retrouver  toute <br><span> mes chaines </span> ici</h1>
+      <p class="mb-4 pb-0">Une vidéo de ma chaîne Youtube pour te montrer </p>
+      <a href="https://www.youtube.com/watch?v=QK8mJJJvaes&list=PL4NPJMLtqmNa7iH3wkBbPHMkL9OaZvnHg" class="glightbox play-btn mb-4"></a>
+      <a href="#about" class="about-btn scrollto">Voir le reste</a>
     </div>
-    <h2>Un petit aperçu </h2>
+  </section><!-- End Hero Section -->
 
+  <main id="main">
 
-    <div id="prestation">
-      <div class="imagesPrestation" >
-        <div class="ecarlate">
-        <a href="https://www.youtube.com/@Roi_Des_Gueux"><img src="img/chaine/ytb caputure.png" alt="ecarlate" style="height:auto" width="1000px" ></a>
-      <div class="txt-ecarlate">
-          <h5></br> Voici ma chaîne YOUTUBE, où il y a des best-of, des courses de F1 et surtout n'oublie pas de t'abonner.</br>
-         </h5>
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container position-relative" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>titre de la vidéo</h2>
+            <p>description</p>
+          </div>
+          <div class="col-lg-3">
+            <h3>date de sortie</h3>
+            <p>12/12/2023</p>
+          </div>
+          <div class="col-lg-3">
+            <h3></h3>
+            <p></p>
+          </div>
         </div>
       </div>
-      <div class="imagesPrestation">
-        <div class="txt-violet">
-          <h5></br></br>Voici mon serveur discord, viens nous rejoindre tu seras le bien venu ;)
-            </h5>
+    </section><!-- End About Section -->
+
+    <!-- ======= Speakers Section ======= -->
+    <section id="speakers">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Mes Chaînes</h2>
         </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="assets/next page/ytb.html">Youtube</a></h3>
+                <p>Plus d'information</p>
+                <div class="social">
+                  <a href="https://www.youtube.com/@Roi_Des_Gueux"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.tiktok.com/@roi_des_geueux"><i class="bi bi-tiktok"></i></a>
+                  <a href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                  <a href="https://discord.gg/PQUytB5w6z"><i class="bi bi-discord"></i></a>
+                  <a href="https://www.twitch.tv/roi_des_gueux_max"><i class="bi bi-twitch"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/speakers/1.png" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="assets/next page/ytb tuto.html">Youtube-TUTO</a></h3>
+                  <p>Plus d'information</p>
+                  <div class="social">
+                    <a href="https://www.youtube.com/@Roi_Des_Gueux"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@roi_des_geueux"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                    <a href="https://discord.gg/PQUytB5w6z"><i class="bi bi-discord"></i></a>
+                    <a href="https://www.twitch.tv/roi_des_gueux_max"><i class="bi bi-twitch"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/2.png" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="assets/next page/short.html">Youtube Short</a></h3>
+                <p>Plus d'information</p>
+                <div class="social">
+                  <a href="https://www.youtube.com/@Roi_Des_Gueux"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.tiktok.com/@roi_des_geueux"><i class="bi bi-tiktok"></i></a>
+                  <a href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                  <a href="https://discord.gg/PQUytB5w6z"><i class="bi bi-discord"></i></a>
+                  <a href="https://www.twitch.tv/roi_des_gueux_max"><i class="bi bi-twitch"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+                <img src="assets/img/speakers/7.png" alt="Speaker 1" class="img-fluid">
+                <div class="details">
+                  <h3><a href="assets/next page/twitch.html">Twitch</a></h3>
+                  <p>Plus d'information</p>
+                  <div class="social">
+                    <a href="https://www.youtube.com/@Roi_Des_Gueux"><i class="bi bi-youtube"></i></a>
+                    <a href="https://www.tiktok.com/@roi_des_geueux"><i class="bi bi-tiktok"></i></a>
+                    <a href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                    <a href="https://discord.gg/PQUytB5w6z"><i class="bi bi-discord"></i></a>
+                    <a href="https://www.twitch.tv/roi_des_gueux_max"><i class="bi bi-twitch"></i></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="col-lg-4 col-md-6">
+                <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+                  <img src="assets/img/speakers/8.png" alt="Speaker 1" class="img-fluid">
+                  <div class="details">
+                    <h3><a href="assets/next page/twitch replay ytb.html">Youtube-Replay-Twitch</a></h3>
+                    <p>Plus d'information</p>
+                    <div class="social">
+                      <a href="https://www.youtube.com/@Roi_Des_Gueux"><i class="bi bi-youtube"></i></a>
+                      <a href="https://www.tiktok.com/@roi_des_geueux"><i class="bi bi-tiktok"></i></a>
+                      <a href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                      <a href="https://discord.gg/PQUytB5w6z"><i class="bi bi-discord"></i></a>
+                      <a href="https://www.twitch.tv/roi_des_gueux_max"><i class="bi bi-twitch"></i></a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/3.png" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="assets/next page/tiktok.html">TikTok</a></h3>
+                <p>Plus d'information</p>
+                <div class="social">
+                  <a href="https://www.youtube.com/@Roi_Des_Gueux"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.tiktok.com/@roi_des_geueux"><i class="bi bi-tiktok"></i></a>
+                  <a href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                  <a href="https://discord.gg/PQUytB5w6z"><i class="bi bi-discord"></i></a>
+                  <a href="https://www.twitch.tv/roi_des_gueux_max"><i class="bi bi-twitch"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/speakers/4.png" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="assets/next page/instagram.html">Instagram</a></h3>
+                <p>Plus d'information</p>
+                <div class="social">
+                  <a href="https://www.youtube.com/@Roi_Des_Gueux"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.tiktok.com/@roi_des_geueux"><i class="bi bi-tiktok"></i></a>
+                  <a href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                  <a href="https://discord.gg/PQUytB5w6z"><i class="bi bi-discord"></i></a>
+                  <a href="https://www.twitch.tv/roi_des_gueux_max"><i class="bi bi-twitch"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/5.png" alt="Speaker 5" class="img-fluid">
+              <div class="details">
+                <h3><a href="https://discord.gg/PQUytB5w6z">Discord</a></h3>
+                <p>Plus d'information</p>
+                <div class="social">
+                  <a href="https://www.youtube.com/@Roi_Des_Gueux"><i class="bi bi-youtube"></i></a>
+                  <a href="https://www.tiktok.com/@roi_des_geueux"><i class="bi bi-tiktok"></i></a>
+                  <a href="https://instagram.com/roi_des_gueux?igshid=MzNlNGNkZWQ4Mg=="><i class="bi bi-instagram"></i></a>
+                  <a href="https://www.twitch.tv/roi_des_gueux_max"><i class="bi bi-twitch"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/6.png" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="https://roidesgueux.github.io/music/">Song</a></br></br></br></h3>
+                 
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section><!-- End Speakers Section -->
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule" class="section-with-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Commmentaire</h2>
+          <p>Attention toujours positive les gueux !</p>
+        </div>
+
+        <ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-bs-toggle="tab">Youtube</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-bs-toggle="tab">TikTok</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-bs-toggle="tab">Instagram</a>
+          </li>
+        </ul>
+
       
-        <div class="violet">
-          <a href="https://discord.gg/GnRaH7KXTU"><img src="img/chaine/discord caputure.png" alt="violet" style="height:auto" ></a>
-        </div>
-      </div>
-      <div class="imagesPrestation" >
-        <div class="ecarlate">
-        <a href="https://www.tiktok.com/@roi_des_geueux"><img src="img/chaine/tiktok capture.png" alt="diamant&perle" style="height:auto" ></a>
-      <div class="txt-ecarlate">
-          <h5></br></br>Voici mon compte TIKTOK, où il y a des edits et surtout n'oublie pas de t'abonner.</br>
-         
-          </h5>
-        </div>
-      </div>
-        <div class="imagesPrestation">
-          <div class="txt-violet">
-            <h5></br>Voici mon compte Twitch, où il y a beaucoup de live gaming et surtout n'oublie pas de t'abonner.</br>
-         
-             </h5>
+
+        <div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+
+          <!-- Schdule Day 1 -->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:30 AM</time></div>
+              <div class="col-md-10">
+                <h4>Registration</h4>
+                <p>Fugit voluptas iusto maiores temporibus autem numquam magnam.</p>
+              </div>
+            </div>
+
           </div>
-          <div class="violet">
-            <a href="https://www.twitch.tv/roi_des_gueux_max"><img src="img/chaine/tiwtch caputure.png" alt="audition" style="height:auto" ></a>
+          <!-- End Schdule Day 1 -->
+
+          <!-- Schdule Day 2 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                </div>
+                <h4>Libero corrupti explicabo itaque. <span>Brenden Legros</span></h4>
+                <p>Facere provident incidunt quos voluptas.</p>
+              </div>
+            </div>
+
+            
+
           </div>
-      </div>
-        
+          <!-- End Schdule Day 2 -->
+
+          <!-- Schdule Day 3 -->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-3">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div>
+                <h4>Et voluptatem iusto dicta nobis. <span>Hubert Hirthe</span></h4>
+                <p>Maiores dignissimos neque qui cum accusantium ut sit sint inventore.</p>
+              </div>
+            </div>
+
       
-  
-  
-      </footer>
-      <div id="deuxiemeTrait"></div>
-        <div id="copyrightEtIcons">
-          <div id="copyright">
-            <span></br></br></br></br></br></br>© Roi_Des_Gueux(); 2022</span>
+
           </div>
+          <!-- End Schdule Day 2 -->
+
         </div>
-    </body>
-  
-  </html>
+
+      </div>
+
+    </section><!-- End Schedule Section -->
+
+ 
+  </footer><!-- End  Footer -->
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
